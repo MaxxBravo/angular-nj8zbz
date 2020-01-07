@@ -8,10 +8,13 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products;
+  products2 = products;
 
   share() {
     window.alert('The product has been shared!');
+  }
+  buy(price){
+    window.alert('The price is: ' + price);
   }
 }
 
